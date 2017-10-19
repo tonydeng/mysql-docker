@@ -1,11 +1,12 @@
-FROM alpine:latest
+FROM wolfdeng/alpine:latest
 
 MAINTAINER Tony Deng ( wolf.deng@gmail.com )
 
-RUN echo "http://mirrors.ustc.edu.cn/alpine/latest-stable/main" >> /etc/apk/repositories \
-    && echo "http://mirrors.ustc.edu.cn/alpine/latest-stable/community" >> /etc/apk/repositories
-
 RUN apk update \
+    && apk add mysql mysql-client pwgen \
+    && rm -rf /var/cache/apk/*
+
+RUN  apk update \
     && apk add mysql mysql-client pwgen \
     && rm -rf /var/cache/apk/*
 

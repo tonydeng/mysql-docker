@@ -1,0 +1,12 @@
+root=true
+
+[*.sh]
+indent_style = space
+indent_size = 4
+continuation_indent_size = 8
+
+
+[Dockerfile]
+indent_style = space
+indent_size = 4
+continuation_indent_size = 8

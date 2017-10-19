@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-MAINATAINER Tony Deng ( wolf.deng@gmail.com )
+MAINTAINER Tony Deng ( wolf.deng@gmail.com )
 
 RUN echo "http://mirrors.ustc.edu.cn/alpine/latest-stable/main" >> /etc/apk/repositories \
     && echo "http://mirrors.ustc.edu.cn/alpine/latest-stable/community" >> /etc/apk/repositories

@@ -1,4 +1,8 @@
 # MySQL(MariaDB) Alpine Docker
+[![Docker Stars](https://img.shields.io/docker/stars/wolfdeng/mysql.svg)](https://hub.docker.com/r/wolfdeng/mysql/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/wolfdeng/mysql.svg)](https://hub.docker.com/r/wolfdeng/mysql/)
+[![Image Size](https://img.shields.io/imagelayers/image-size/wolfdeng/mysql/latest.svg)](https://imagelayers.io/?images=wolfdeng/mysql:latest)
+[![Image Layers](https://img.shields.io/imagelayers/layers/wolfdeng/mysql/latest.svg)](https://imagelayers.io/?images=wolfdeng/mysql:latest)
 
 基于Alpine系统的Docker镜像，用于提供MySQL(MariaDB)服务。
 

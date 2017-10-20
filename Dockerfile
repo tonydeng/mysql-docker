@@ -19,4 +19,6 @@ VOLUME ["/mysql/data", "/mysql/conf", "/mysql/log", "/mysql/run"]
 
 ENTRYPOINT ["/entrypoint.sh"]
 
+RUN ["chmod","+x","/entrypoint.sh"]
+
 CMD ["/usr/bin/mysqld","--defaults-file=/mysql/conf/mysql/my.cnf","--user=root","--console","--character-set-server=utf8"]

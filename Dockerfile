@@ -6,10 +6,6 @@ RUN apk update \
     && apk add mysql mysql-client pwgen \
     && rm -rf /var/cache/apk/*
 
-RUN  apk update \
-    && apk add mysql mysql-client pwgen \
-    && rm -rf /var/cache/apk/*
-
 COPY my.cnf /etc/mysql/my.cnf
 COPY entrypoint.sh /entrypoint.sh
 

@@ -1,4 +1,4 @@
-FROM wolfdeng/alpine:latest
+FROM wolfdeng/alpine:3.6
 
 MAINTAINER Tony Deng ( wolf.deng@gmail.com )
 
